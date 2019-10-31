@@ -1,0 +1,106 @@
+.vis_fig{
+    padding:20px;
+    height:200px;
+    width:250px;
+}
+#left_col{
+    background-color:#FFFFFF;
+    position:relative;
+    top: 50px;
+    padding: 30px;
+    max-width: 800px;
+}
+#col_spacer{
+    background-color:rgb(214, 214, 214);
+    position:relative;
+    width: 80px;
+    height: 20px;
+    top: 50px;
+}
+#right_col{
+    background-color:#FFFFFF;
+    position:relative;
+    top: 50px;
+    padding: 30px;
+    max-height: 600px;
+}
+#left_index_head{
+    font-size:30px;
+    font-weight:900;
+    color:#03979c;
+    padding:30px;
+}
+#right_index_head{
+    font-size:30px;
+    font-weight:900;
+    color:#03979c;
+    padding: 30px;
+}
+#plot_fig{
+    padding: 20px;
+    height:400px;
+    width:450px;
+    align:center;
+}
+#plot_text{
+    font-size: 20px;
+    size: 40px;
+    max-width:800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .vis_fig{
+        padding:20px;
+        height: 100%;
+        width: 100%;
+    }
+    #left_col{
+        background-color:#FFFFFF;
+        position:relative;
+        top: 50px;
+        padding: 30px;
+        left: 70px;
+        max-width: 1000px;
+    }
+    #col_spacer{
+        background-color:rgb(214, 214, 214);
+        position:relative;
+        width: 80px;
+        height: 850px;
+        top: 50px;
+    }
+    #right_col{
+        background-color:#FFFFFF;
+        position:relative;
+        top: 50px;
+        padding: 30px;
+        margin-right: 10px;
+        max-height: 500px;
+    }
+    #right_index_head{
+        padding: 20px;
+    }
+    #plot_fig{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    #plot_text{
+        font-size: 20px;
+        size: 40px;
+        max-width:800px;
+    }
+}

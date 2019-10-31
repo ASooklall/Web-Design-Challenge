@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(214, 214, 214);
+}
+.navbar{
+    background-color:#FFFFFF;
+}
+#logo_1{
+    background-color:#03979c;
+    padding: 18px;
+    color:#FFFFFF;
+    font-weight:900;
+    font-size:25px;
+    letter-spacing: 3px;
+}
