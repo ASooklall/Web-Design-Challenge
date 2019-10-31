@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebVisualization: Home</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="scripts/display-active.js" defer></script>
+  
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="import" href="resources/navindex.html">
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+
+
+</head>
+
+<body>
+    <!-- Navbar Loader Begins -->
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var nav = link.import.querySelector('nav');
+        document.body.appendChild(nav.cloneNode(true));
+    </script>
+    <!-- Navbar Loader Ends-->
+
+
+    <div class="row" id="index_container">
+        <div class="col-sm-7" id="left_col">
+            <div class="row">
+                <div class="col-12 col-sm-12" id="left_index_head">
+                    Summary: Latitude VS X
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <img src="assets/images/Fig1.png" align="left" id="fig_wrap">
+                    <p class="text_wrap" id="fig_text_wrap">
+                        This assignment was conducted to test the effects of proximity to the equator on weather. Random cities were pulled using CitiPy which was
+                        then cross-referenced against the OpenWeather API to get the weather statistics for each city. Over 600 cities were pulled this way and over 500
+                        were used in the analysis after cleaning.
+                        <br>
+                        <br>
+                        After the dataset was assembled, Matplotlib was used to plot each weather statistic against latitude. The weather statistics chosen were: max temperature,
+                        coudiness, wind speed, and humidity. Regressions were run to test correlataions after the plots were formed. This website shows the plots formed along with
+                        any correlations discovered, as well as a comparison of the graphs and the data table of all the cities and statistics.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div clss="col-sm-1" id="col_spacer">   </div>
+        <div class="col-sm-4" id="right_col">
+            <div class="row">
+                <div class="col-12 col-sm-12" id='right_index_head'>
+                    Visualizations
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-6">
+                    <a href="visualization/latvtemp.html"><img src="assets/images/Fig1.png"  class="vis_fig" id="vis_fig_1"></a>
+                </div>
+                <div class="col-6 col-sm-6">
+                    <a href="visualization/latvhumid.html"><img src="assets/images/Fig2.png"  class="vis_fig" id="vis_fig_2"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-6">
+                    <a href="visualization/latvcloud.html"><img src="assets/images/Fig3.png"  class="vis_fig" id="vis_fig_3"></a>
+                </div>
+                <div class="col-6 col-sm-6">
+                    <a href="visualization/latvwind.html"><img src="assets/images/Fig4.png"  class="vis_fig" id="vis_fig_4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
