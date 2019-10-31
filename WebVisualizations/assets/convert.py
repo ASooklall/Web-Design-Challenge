@@ -8,4 +8,4 @@ file = "cities.csv"
 cities_df = pd.read_csv(file, delimiter = ',')
 
 #conversion and directory
-cities_df.to_html('../resources/cities_data.html')
+cities_df.to_html('../resources/cities_data.html', index=False)
