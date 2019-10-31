@@ -6,7 +6,6 @@
 #left_col{
     background-color:#FFFFFF;
     position:relative;
-    /* height: 800px; */
     top: 50px;
     padding: 30px;
     max-width: 800px;
@@ -37,12 +36,13 @@
     color:#03979c;
     padding: 30px;
 }
-#fig_wrap{
+#plot_fig{
     padding: 20px;
-    height:200px;
-    width:250px;
+    height:400px;
+    width:450px;
+    align:center;
 }
-#fig_text_wrap{
+#plot_text{
     font-size: 20px;
     size: 40px;
     max-width:800px;
@@ -79,13 +79,12 @@
         background-color:rgb(214, 214, 214);
         position:relative;
         width: 80px;
-        height: 800px;
+        height: 850px;
         top: 50px;
     }
     #right_col{
         background-color:#FFFFFF;
         position:relative;
-        /* height: 800px; */
         top: 50px;
         padding: 30px;
         margin-right: 10px;
@@ -94,12 +93,13 @@
     #right_index_head{
         padding: 20px;
     }
-    #fig_wrap{
-        padding: 20px;
-        height:90%;
-        width:30%;
+    #plot_fig{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
-    #fig_text_wrap{
+    #plot_text{
         font-size: 20px;
         size: 40px;
         max-width:800px;
