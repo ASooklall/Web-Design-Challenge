@@ -21,8 +21,11 @@
         crossorigin="anonymous"></script>
         <script src="scripts/display-active.js" defer></script>
   
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="import" href="../navbar.html">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="import" href="resources/navbar.html">
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+
+
 </head>
 
 <body>
@@ -33,6 +36,80 @@
         document.body.appendChild(nav.cloneNode(true));
     </script>
     <!-- Navbar Loader Ends-->
+
+
+
+<!-- 
+    <div class="container" id="index_left">
+            <p>Test</p>
+    </div>
+
+    <div class="container" id="index_right">
+        <div class="row">
+                <p>Test</p>
+        </div>
+        <div class="row">
+            <p>Test</p>
+        </div>
+        <div class="row">
+                <p>Test</p>
+        </div>
+    </div> -->
+
+    <div class="row" id="index_container">
+            <div class="col-sm-8" id="left_col">
+                    <div class="row">
+                            <div class="col-12 col-sm-12">
+                                Test Header
+                            </div>
+                        </div>
+              <div class="row">
+                <div class="col-12 col-sm-12">
+                        <img src="assets/images/Fig1.png" align="left" id="fig_wrap">
+                        <p>
+                            This assignment was conducted to test the effects of proximity to the equator on weather. Random cities were pulled using CitiPy which was
+                            then cross-referenced against the OpenWeather API to get the weather statistics for each city. Over 600 cities were pulled this way and over 500
+                            were used in the analysis after cleaning.
+                            <br>
+                            <br>
+                            After the dataset was assembled, Matplotlib was used to plot each weather statistic against latitude. The weather statistics chosen were: max temperature,
+                            coudiness, wind speed, and humidity. Regressions were run to test correlataions after the plots were formed. This website shows the plots formed along with
+                            any correlations discovered, as well as a comparison of the graphs and the data table of all the cities and statistics.
+                        </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4" id="right_col">
+             
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        Test Header
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                            <img src="assets/images/Fig1.png"  class="vis_fig" id="vis_fig_1">
+                    </div>
+                    <div class="col-6 col-sm-6">
+                            <img src="assets/images/Fig2.png"  class="vis_fig" id="vis_fig_2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                            <img src="assets/images/Fig3.png"  class="vis_fig" id="vis_fig_3">
+                    </div>
+                    <div class="col-6 col-sm-6">
+                            <img src="assets/images/Fig4.png"  class="vis_fig" id="vis_fig_4">
+                    </div>
+                </div>
+
+            </div>
+
+
+          </div>
+
+
+
 
 
 </body>

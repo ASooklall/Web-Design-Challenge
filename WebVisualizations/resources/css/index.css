@@ -1,0 +1,13 @@
+.vis_fig{
+    padding:20px;
+    height:200px;
+    width:250px;
+}
+
+@media (min-width: 576px) {
+    .vis_fig{
+        padding:20px;
+        height: 100%;
+        width: 100%;
+    }
+}
