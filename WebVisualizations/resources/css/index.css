@@ -3,11 +3,48 @@
     height:200px;
     width:250px;
 }
+#left_index_head{
+    font-size:30px;
+    font-weight:900;
+    color:#03979c;
+    padding:30px;
+}
+#right_index_head{
+    font-size:30px;
+    font-weight:900;
+    color:#03979c;
+    padding: 30px;
+}
+#fig_wrap{
+    padding: 20px;
+    height:200px;
+    width:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 576px) {
     .vis_fig{
         padding:20px;
         height: 100%;
         width: 100%;
+    }
+    #right_index_head{
+        padding: 20px;
+    }
+    #fig_wrap{
+        padding: 20px;
+        height:80%;
+        width:30%;
     }
 }
