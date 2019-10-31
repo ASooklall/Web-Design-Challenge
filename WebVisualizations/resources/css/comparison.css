@@ -1,4 +1,5 @@
 .vis_fig{
+    margin-left: 25%;
     padding:20px;
     height:200px;
     width:250px;
@@ -10,8 +11,8 @@
     top: 40px;
     min-width: 300px;
     max-width: 600px;
-    min-height: 600px;
-    max-height: 1200px;
+    min-height: 700px;
+    max-height: 1400px;
     align: center;
 }
 
@@ -22,10 +23,16 @@
     padding: 30px;
 }
 
-#comp_text{
+.comp_text{
+    position:relative;
     font-size: 20px;
-    padding: 30px;
-    max-width:800px;
+    padding:20px;
+    top: -40px;
+}
+.titlec{
+    text-align:center;
+    font-size:25px;
+    color:#03979c;
 }
 
 
@@ -37,6 +44,7 @@
         padding:20px;
         height: 100%;
         width: 100%;
+        margin-left:0%;
     }
     #right_col{
         background-color:#FFFFFF;
@@ -51,9 +59,15 @@
     #comp_head{
         padding: 20px;
     }
-    #comp_text{
+    .comp_text{
         font-size: 20px;
         padding: 30px;
         max-width:800px;
+    }
+    .titlec{
+        display:none;
+    }
+    .hr_comp{
+        display:none;
     }
 }
